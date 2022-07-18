@@ -41,8 +41,8 @@ const website_list = reactive([
   ['https://www.bilibili.com/','哔哩哔哩','https://files.codelife.cc/website/bilibili2.svg'],
   ['http://v.qq.com/','腾讯视频','https://files.codelife.cc/website/qqvideo.svg'],
   ['https://vercel.com/','vercel','https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico'],
-  ['https://github.dev/mm-man/m-home-page','github.dev','https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico'],
-  
+  ['https://github.dev/mm-man/m-home-page','github.dev','https://files.codelife.cc/user-website-icon/20220718/GbhNibmJdnSjNyqXpTWLA6609.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_100'],
+
 ])
 
 function websiteClick (site){
