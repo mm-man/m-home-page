@@ -10,6 +10,7 @@
       <el-main>
         <el-input
           v-model="input" type="text" placeholder="搜索" size="large" :suffix-icon="Search"
+          @change="clickInput"
         >
         </el-input>
         <el-container class="website-list">
@@ -33,6 +34,11 @@ const website_list = reactive(website_data)
 
 function websiteClick (site){
   window.open(site)
+}
+
+function clickInput(){
+  window.open(`https://www.baidu.com/s?tn=68018901_2_oem_dg&ie=utf-8&wd=${input.value}`)
+  
 }
 </script>
 
