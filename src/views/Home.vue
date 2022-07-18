@@ -42,6 +42,7 @@ const website_list = reactive([
   ['http://v.qq.com/','腾讯视频','https://files.codelife.cc/website/qqvideo.svg'],
   ['https://vercel.com/','vercel','https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico'],
   ['https://github.dev/mm-man/m-home-page','github.dev','https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico'],
+  
 ])
 
 function websiteClick (site){
