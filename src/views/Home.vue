@@ -100,7 +100,7 @@ function clickInput(){
           width: 45px;
           height: 45px;
           border-radius: 18%;
-          background-color: rgba(24, 97, 119, 0.8);
+          background-color: rgba(1,1,1,0);
         }
         .text {
           // background-color: var(--el-color-success-dark-2);
