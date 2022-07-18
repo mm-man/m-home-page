@@ -10,4 +10,7 @@ export default [
     ['https://fanyi.baidu.com','百度翻译','https://files.codelife.cc/website/fanyi-baidu.svg'],
     ['https://outlook.live.com/mail/0/inbox','Outlook','https://files.codelife.cc/website/outlook.svg'],
     ['https://mail.qq.com/','QQ邮箱','https://files.codelife.cc/website/qq-mail.svg'],
+    ['https://element-plus.org/zh-CN/#/zh-CN','element-plus','https://files.codelife.cc/website/elementui.svg'],
+    ['https://element.eleme.cn/','element-ui','https://files.codelife.cc/website/elementui.svg'],
+
 ]

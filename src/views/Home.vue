@@ -77,7 +77,7 @@ function clickInput(){
     flex-direction: column;
     align-items: center;
     .el-input {
-      width: 75vw;
+      width: 32vw;
       // height: 2.5em;
       line-height: 2.5em;
       font-size: 1em;
@@ -87,7 +87,7 @@ function clickInput(){
       flex-wrap: wrap;
       display: flex;
       align-content: flex-start;
-      margin-top: 0.5em;
+      margin-top: 3em;
       .item {
         text-align: center;
         height: fit-content;
