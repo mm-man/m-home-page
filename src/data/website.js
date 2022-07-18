@@ -8,6 +8,6 @@ export default [
     ['https://vercel.com/','vercel','https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico'],
     ['https://github.dev/mm-man/m-home-page','github.dev','https://files.codelife.cc/user-website-icon/20220718/GbhNibmJdnSjNyqXpTWLA6609.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_100'],
     ['https://fanyi.baidu.com','百度翻译','https://files.codelife.cc/website/fanyi-baidu.svg'],
-    ['https://outlook.live.com/mail/0/inbox','OutlookOutlook','https://files.codelife.cc/website/outlook.svg'],
+    ['https://outlook.live.com/mail/0/inbox','Outlook','https://files.codelife.cc/website/outlook.svg'],
     ['https://mail.qq.com/','QQ邮箱','https://files.codelife.cc/website/qq-mail.svg'],
 ]
