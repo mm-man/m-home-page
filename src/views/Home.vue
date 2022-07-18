@@ -26,24 +26,10 @@
 <script setup>
 import { ref, reactive, onMounted, watch } from "vue";
 import { Search } from "@element-plus/icons-vue";
-const url =
-  "chrome-search://ntpicon/?size=48@1.000000x&url=http://localhost:3000/";
+import website_data from '@/data/website'
+
 const input = ref("");
-
-
-
-
-const website_list = reactive([
-  ['http://nodejs.cn/', 'nodejs', 'https://files.codelife.cc/website/5ab0785c7b072b4fee37ca12.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_100'],
-  ['https://gitee.com', 'gitee', 'https://files.codelife.cc/website/gitee.svg'],
-  ['https://github.com/','GitHub','https://files.codelife.cc/website/github.svg'],
-  ['https://www.wolai.com/','我来','https://files.codelife.cc/website/www.wolai.com.svg'],
-  ['https://www.bilibili.com/','哔哩哔哩','https://files.codelife.cc/website/bilibili2.svg'],
-  ['http://v.qq.com/','腾讯视频','https://files.codelife.cc/website/qqvideo.svg'],
-  ['https://vercel.com/','vercel','https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico'],
-  ['https://github.dev/mm-man/m-home-page','github.dev','https://files.codelife.cc/user-website-icon/20220718/GbhNibmJdnSjNyqXpTWLA6609.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_100'],
-
-])
+const website_list = reactive(website_data)
 
 function websiteClick (site){
   window.open(site)
