@@ -59,7 +59,7 @@ function clickInput(){
     position: absolute;
     width: fit-content;
     height: 100vh;
-    background-color: var(--el-color-primary-light-8);
+    background-color: rgba(1,1,1,.4);
     padding: 0.5em 0;
     display: flex;
     flex-direction: column;
@@ -68,8 +68,15 @@ function clickInput(){
       opacity: 1;
     }
     .el-tag {
-      margin: 1px 0 0 0;
+      margin: 1px 0 0;
       cursor: pointer;
+      background-color: rgba(255,255,255,.6);
+      border-radius: 0;
+      border: none;
+      .el-tag__content {
+        color: #000;
+        font-weight: bold;
+      }
     }
   }
   .el-main {
