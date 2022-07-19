@@ -9,8 +9,7 @@
       <el-header></el-header>
       <el-main>
         <el-input
-          v-model="input" type="text" placeholder="搜索" size="large" :suffix-icon="Search"
-          @change="clickInput"
+           v-model="input" type="text" placeholder="搜索" size="large" :suffix-icon="Search" @keyup="onkeyUp($event)"
         >
         </el-input>
         <el-container class="website-list">
@@ -36,9 +35,11 @@ function websiteClick (site){
   window.open(site)
 }
 
-function clickInput(){
-  window.open(`https://www.baidu.com/s?tn=68018901_2_oem_dg&ie=utf-8&wd=${input.value}`)
-  
+function onkeyUp(event){
+  const { key } = event
+  if (key == 'Enter'){
+    window.open(`https://www.baidu.com/s?tn=68018901_2_oem_dg&ie=utf-8&wd=${input.value}`)
+  }
 }
 </script>
 
@@ -100,7 +101,7 @@ function clickInput(){
         border: 1px solid rgba(255, 255, 255, 0);
         padding: 0.6em 0;
        border-radius: 10px;
-        cursor: pointer;
+        cursor: pointer
         .el-avatar {
           vertical-align: top;
           width: 45px;
