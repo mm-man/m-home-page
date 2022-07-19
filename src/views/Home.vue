@@ -73,7 +73,7 @@ function clickInput(){
       background-color: rgba(255,255,255,.6);
       border-radius: 0;
       border: none;
-      .el-tag__content {
+      /deep/.el-tag__content {
         color: #000;
         font-weight: bold;
       }
