@@ -1,9 +1,9 @@
 <template>
   <el-container class="m-container">
     <el-aside>
-      <el-tag class="mx-1" size="large">Large</el-tag>
-      <el-tag class="mx-1" size="large">Large</el-tag>
-      <el-tag class="mx-1" size="large">Large</el-tag>
+      <el-tag type="info" class="mx-1" size="large" effect="light">Large</el-tag>
+      <el-tag type="info" class="mx-1" size="large" effect="light">Large</el-tag>
+      <el-tag type="info" class="mx-1" size="large" effect="light">Large</el-tag>
     </el-aside>
     <el-container>
       <el-header></el-header>
