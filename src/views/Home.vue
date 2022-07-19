@@ -1,9 +1,9 @@
 <template>
   <el-container class="m-container">
     <el-aside>
-      <el-tag type="info" class="mx-1" size="large" effect="light">Large</el-tag>
-      <el-tag type="info" class="mx-1" size="large" effect="light">Large</el-tag>
-      <el-tag type="info" class="mx-1" size="large" effect="light">Large</el-tag>
+      <div class="item">code</div>
+      <div class="item">生活</div>
+      <div class="item">娱乐</div>
     </el-aside>
     <el-container>
       <el-header></el-header>
@@ -67,11 +67,15 @@ function clickInput(){
     &:hover {
       opacity: 1;
     }
-    .el-tag {
-      margin: 1px 0 0;
+    .item {
       cursor: pointer;
-      border-radius: 0;
-      
+      margin: .2em .1em;
+      padding: .5em 0;
+      color: #fff;  
+      width: 6em;
+      border-radius: 4px;
+      text-align: center;
+      background-color: rgba(169, 175, 176, 0.2);
     }
   }
   .el-main {
