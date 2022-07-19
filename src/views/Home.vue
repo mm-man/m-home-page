@@ -36,8 +36,10 @@ function websiteClick (site){
 }
 
 function onkeyUp(event){
+  
   const { key } = event
   if (key == 'Enter'){
+    console.log(key)
     window.open(`https://www.baidu.com/s?tn=68018901_2_oem_dg&ie=utf-8&wd=${input.value}`)
   }
 }
