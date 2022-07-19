@@ -103,7 +103,7 @@ function onkeyUp(event){
         border: 1px solid rgba(255, 255, 255, 0);
         padding: 0.6em 0;
        border-radius: 10px;
-        cursor: pointer
+        cursor: pointer;
         .el-avatar {
           vertical-align: top;
           width: 45px;
