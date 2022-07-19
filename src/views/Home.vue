@@ -71,7 +71,6 @@ function clickInput(){
       margin: 1px 0 0;
       cursor: pointer;
       border-radius: 0;
-      border: none;
       /deep/.el-tag__content {
         color: #000;
         font-weight: bold;
