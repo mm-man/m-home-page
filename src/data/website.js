@@ -14,7 +14,10 @@ export default [
     ['https://element-plus.gitee.io/zh-CN/','element-plus','https://files.codelife.cc/website/elementui.svg'],
     ['https://element.eleme.cn/','element-ui','https://files.codelife.cc/website/elementui.svg'],
     ['http://www.ruoyi.vip/','ruoyi','http://www.ruoyi.vip/images/ruoyi.png'],
-
+    ['https://www.code-nav.cn/','编程导航','https://files.codelife.cc/website/code-nav.cn.svg'],
+    ['https://hub.docker.com/','Docker Hub','https://files.codelife.cc/website/5eec31067e261c1f0b4e6d00.png'],
+    ['https://www.w3cschool.cn/','W3CSchool','https://files.codelife.cc/website/5aae69010b1f774ff3a00303.png'],
+    ['https://v3.cn.vuejs.org/','Vue3','https://files.codelife.cc/website/vuejs.svg'],
 
     
 ]
