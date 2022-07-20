@@ -18,6 +18,9 @@ export default [
     ['https://hub.docker.com/','Docker Hub','https://files.codelife.cc/website/5eec31067e261c1f0b4e6d00.png'],
     ['https://www.w3cschool.cn/','W3CSchool','https://files.codelife.cc/website/5aae69010b1f774ff3a00303.png'],
     ['https://v3.cn.vuejs.org/','Vue3','https://files.codelife.cc/website/vuejs.svg'],
+    ['https://doc.houdunren.com/','后盾人','https://www.houdunren.com/dist/favicon.ico'],
+    ['https://www.ruanyifeng.com/','阮一峰','https://www.ruanyifeng.com/favicon.ico'],
+    ['https://bright-boy.gitee.io/','夕颜笔记','https://bright-boy.gitee.io/technical-notes/images/favicon.ico'],
 
     
 ]
