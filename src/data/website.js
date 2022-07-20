@@ -21,6 +21,7 @@ export default [
     ['https://doc.houdunren.com/','后盾人','https://www.houdunren.com/dist/favicon.ico'],
     ['https://www.ruanyifeng.com/','阮一峰','https://www.ruanyifeng.com/favicon.ico'],
     ['https://bright-boy.gitee.io/','夕颜笔记','https://bright-boy.gitee.io/technical-notes/images/favicon.ico'],
+    ['https://q.shanyue.tech/','每日一题','https://q.shanyue.tech/favicon.ico'],
 
     
 ]
