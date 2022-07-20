@@ -190,6 +190,7 @@ function onMousewheel_ConTainer(event){
     padding: 0.5em 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     opacity: 0;
     &:hover {
       opacity: 1;
