@@ -24,6 +24,7 @@ export default [
     ['https://q.shanyue.tech/','每日一题','https://q.shanyue.tech/favicon.ico'],
     ['https://gitlab.superred.com.cn/','gitlab','https://gitlab.superred.com.cn/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png'],
     ['https://www.yuque.com/docs/share/1526a1b4-0757-439e-9da5-5c22f83624af','小院智慧-支付','https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*CUIoT4xopNYAAAAAAAAAAABkARQnAQ'],
+    ['http://listen1.github.io/listen1/','Listen 1 音乐播放器','https://files.codelife.cc/website/listen1.github.iolisten1.svg'],
 
     
 ]
