@@ -13,7 +13,8 @@ export default [
     ['https://mail.qq.com/','QQ邮箱','https://files.codelife.cc/website/qq-mail.svg'],
     ['https://element-plus.gitee.io/zh-CN/','element-plus','https://files.codelife.cc/website/elementui.svg'],
     ['https://element.eleme.cn/','element-ui','https://files.codelife.cc/website/elementui.svg'],
-  
+    ['http://www.ruoyi.vip/','ruoyi','http://www.ruoyi.vip/images/favicon.ico'],
+
 
     
 ]
