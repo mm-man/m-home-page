@@ -70,13 +70,17 @@ function onkeyUp(event){
     }
     .item {
       cursor: pointer;
-      margin: .2em .1em;
       padding: .5em 0;
       color: #fff;  
       width: 6em;
       border-radius: 4px;
-      text-align: center;
-      background-color: rgba(169, 175, 176, 0.2);
+      text-align: center; 
+      &:hover {
+        background-color: rgba(169, 175, 176, 0.2);
+      }
+      &.active {
+        background-color: rgba(169, 175, 176, 0.4);
+      }
     }
   }
   .el-main {
