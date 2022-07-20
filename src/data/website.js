@@ -22,7 +22,7 @@ export default [
     ['https://www.ruanyifeng.com/','阮一峰','https://www.ruanyifeng.com/favicon.ico'],
     ['https://bright-boy.gitee.io/','夕颜笔记','https://bright-boy.gitee.io/technical-notes/images/favicon.ico'],
     ['https://q.shanyue.tech/','每日一题','https://q.shanyue.tech/favicon.ico'],
-    ['https://gitlab.superred.com.cn/','gitlab','https://gitlab.superred.com.cn/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png'],
+    ['https://gitlab.superred.com.cn/','gitlab','https://files.codelife.cc/website/59beb0de6d6b715a4159bb95.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_100'],
     ['https://www.yuque.com/docs/share/1526a1b4-0757-439e-9da5-5c22f83624af','小院智慧-支付','https://gw.alipayobjects.com/mdn/prod_resou/afts/img/A*CUIoT4xopNYAAAAAAAAAAABkARQnAQ'],
     ['http://listen1.github.io/listen1/','Listen 1','https://files.codelife.cc/website/listen1.github.iolisten1.svg'],
 
