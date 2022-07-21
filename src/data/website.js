@@ -29,6 +29,6 @@ export default {
         ['https://v3.cn.vuejs.org/','Vue3','https://files.codelife.cc/website/vuejs.svg'],
         ['https://doc.houdunren.com/','后盾人','https://www.houdunren.com/dist/favicon.ico'],
         ['https://www.ruanyifeng.com/','阮一峰','https://www.ruanyifeng.com/favicon.ico'],
-        ['https://bright-boy.gitee.io/','夕颜笔记','https://bright-boy.gitee.io/technical-notes/images/favicon.ico'],
+        ['https://bright-boy.gitee.io/technical-notes','夕颜笔记','https://bright-boy.gitee.io/technical-notes/images/favicon.ico'],
     ],
 }
